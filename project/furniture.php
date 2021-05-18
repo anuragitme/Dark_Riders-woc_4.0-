@@ -19,7 +19,8 @@
 
        <?php include'partials/_navbar2.php'; ?>
 
-        <div class = "side_pane">
+        <?php include'partials/_side_pane.php'; ?>
+
             <ul class = "nav nav-pills nav-stacked">
                 <br>
                 <li><span class = "nav-pills-heading">&nbsp;&nbsp;Categories</span></li>
