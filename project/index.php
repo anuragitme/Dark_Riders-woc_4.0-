@@ -9,6 +9,7 @@
         <script src = "../js/bootstrap.js"></script>
         
         
+        
         <?php include'partials/_style1.php'; ?>
     </head>
 

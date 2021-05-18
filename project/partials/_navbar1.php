@@ -6,8 +6,8 @@ echo'<div class = "nav navbar-inverse">
                     <li><div class="mx-2">
       
       
-                        <button class="btn btn-outline-primary" data-toggle="modal" data-target="#loginmodal">Login</button>
-                        <button class="btn btn-outline-primary" data-toggle="modal" data-target="#signupmodal">Signup</button>
+                        <button class="btn btn-outline-primary navbar-btn" data-toggle="modal" data-target="#loginmodal">Login</button>
+                        <button class="btn btn-outline-primary navbar-btn" data-toggle="modal" data-target="#signupmodal">Signup</button>
                         
                         </div></li>
                     <li><a href = "#"><span class = "glyphicon glyphicon-earphone"> Contact Us</span></a></li>
