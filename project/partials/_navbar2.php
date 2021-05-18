@@ -56,7 +56,7 @@ echo'<div class = "nav navbar-inverse custom">
                         </div>
                     </li>
                     <li><a href = "#"><span class="fa fa-thumbs-o-up">&nbsp;&nbsp;&nbsp;</span>Today\'s Deals</a></li>
-                    <li><a href = "#"><span class="fa fa-users">&nbsp;&nbsp;&nbsp;</span>Customer Service</a></li>
+                    <li><a href = "customer_service.php"><span class="fa fa-users">&nbsp;&nbsp;&nbsp;</span>Customer Service</a></li>
                     <li><a href = "#"><span class = "glyphicon glyphicon-gift">&nbsp;</span>Gift Cards</a></li>
                 </ul>
             </div>
