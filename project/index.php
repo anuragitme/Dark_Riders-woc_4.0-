@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE php>
+<php>
     <head>
         <title>Home Page</title>
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
@@ -329,7 +329,7 @@
                 </ul>
                 
                 <div class = "navbar-header" id = "nav_header">
-                    <a href = "index.html" class = "navbar-brand">Welcome To Ace Deals</a>
+                    <a href = "index.php" class = "navbar-brand">Welcome To Ace Deals</a>
                 </div>
                 <img src = "../Logo/logo.PNG" style = "transform: translate(-230px,0px);">    
             </div>
@@ -348,13 +348,13 @@
                                     <div class = "modal-body">
                                         <h3 style = "font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shop By Departments</h3>
                                         <ul style = "list-style-type: none;">
-                                            <li><a href = "electronics.html" class = "modal_a-grp_0">Electronics&nbsp;&nbsp;&nbsp;<span class="fa fa-microchip"></span></a></li>
+                                            <li><a href = "electronics.php" class = "modal_a-grp_0">Electronics&nbsp;&nbsp;&nbsp;<span class="fa fa-microchip"></span></a></li>
                                             <br>
-                                            <li><a href = "computer and accessories.html" class = "modal_a-grp_0">Computers&nbsp;&nbsp;&nbsp;<span class="fa fa-desktop"></span></a></li>
+                                            <li><a href = "computer and accessories.php" class = "modal_a-grp_0">Computers&nbsp;&nbsp;&nbsp;<span class="fa fa-desktop"></span></a></li>
                                             <br>
-                                            <li><a href = "clothes.html" class = "modal_a-grp_0">Clothing&nbsp;&nbsp;&nbsp;<span class="fa fa-female"></span></a></li>
+                                            <li><a href = "clothes.php" class = "modal_a-grp_0">Clothing&nbsp;&nbsp;&nbsp;<span class="fa fa-female"></span></a></li>
                                             <br>
-                                            <li><a href = "toys.html" class = "modal_a-grp_0">Toys&nbsp;&nbsp;&nbsp;<span class="fa fa-superpowers"></span></a></li>
+                                            <li><a href = "toys.php" class = "modal_a-grp_0">Toys&nbsp;&nbsp;&nbsp;<span class="fa fa-superpowers"></span></a></li>
                                         </ul>
 
                                         <h3 style = "font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programs and Features</h3>
@@ -443,32 +443,32 @@
             <div class="flex_item" id="item1">
                 <h3 class = "text-center">Computer and Accessories</h3>
                 <img src = "../Images/i1.PNG" alt = "" class = "img-responsive img_flex">
-                <a href = "computer and accessories.html"><h5 class = "text-center">See More</h5></a>
+                <a href = "computer and accessories.php"><h5 class = "text-center">See More</h5></a>
             </div>
             <div class="flex_item" id="item2">
                 <h3 class="text-center">Beauty Picks</h3>
                 <img src="../Images/i2.PNG" alt = "" class = "img-responsive img_flex">
-                <a href = "beauty picks.html"><h5 class = "text-center">See More</h5></a>
+                <a href = "beauty picks.php"><h5 class = "text-center">See More</h5></a>
             </div>
             <div class="flex_item" id="item3">
                 <h3 class="text-center">Toy and Joy</h3>
                 <img src = "../Images/i3.PNG" alt = "" class = "img-responsive img_flex">
-                <a href = "toys.html"><h5 class = "text-center">See More</h5></a>
+                <a href = "toys.php"><h5 class = "text-center">See More</h5></a>
             </div>
             <div class="flex_item" id="item4">
                 <h3 class="text-center">Latest Fashion</h3>
                 <img src = "../Images/i7.jpg" alt = "" class = "img-responsive img_flex">
-                <a href = "clothes.html"><h5 class = "text-center">See More</h5></a>
+                <a href = "clothes.php"><h5 class = "text-center">See More</h5></a>
             </div>
             <div class="flex_item" id="item5">
                 <h3 class="text-center">Electronics</h3>
                 <img src = "../Images/i4.PNG" alt = "" class = "img-responsive img_flex">
-                <a href = "electronics.html"><h5 class = "text-center">See More</h5></a>
+                <a href = "electronics.php"><h5 class = "text-center">See More</h5></a>
             </div>
             <div class="flex_item" id="item6">
                 <h3 class="text-center">Home Furniture</h3>
                 <img src = "../Images/i8.PNG" alt =" " class = "img-responsive img_flex">
-                <a href = "furniture.html"><h5 class = "text-center">See More</h5></a>
+                <a href = "furniture.php"><h5 class = "text-center">See More</h5></a>
             </div>   
         </div>
         <div class = "footer_header_0"><h2 class="text-center">Ace Deals</h2></div>
@@ -491,16 +491,16 @@
             <div class="footer_body_flex">
                 <h2 class="text-center" style = "font-weight: bold; color:white">Product Categories</h2>
                 <ul class = "flex_list_2 flex_a">
-                    <li><a href = "electronics.html">Electronics</a></li>
-                    <li><a href = "computer and accessories.html">Computer and Accessories</a></li>
-                    <li><a href = "beauty picks.html">Beauty Picks</a></li>
-                    <li><a href = "clothes.html">Clothes</a></li>
-                    <li><a href = "toys.html">Toys</a></li>
-                    <li><a href = "furniture.html">Furniture</a></li>
+                    <li><a href = "electronics.php">Electronics</a></li>
+                    <li><a href = "computer and accessories.php">Computer and Accessories</a></li>
+                    <li><a href = "beauty picks.php">Beauty Picks</a></li>
+                    <li><a href = "clothes.php">Clothes</a></li>
+                    <li><a href = "toys.php">Toys</a></li>
+                    <li><a href = "furniture.php">Furniture</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="footer_footer"><h3 class="text-center">Copyrighted By &copy; Ace Deals</h3></div>
     </body>
-</html>
+</php>

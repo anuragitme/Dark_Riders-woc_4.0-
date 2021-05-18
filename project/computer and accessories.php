@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE php>
+<php>
     <head>
         <title>Ace Deals</title>
         <meta charset="UTF-8">
@@ -181,7 +181,7 @@
                 </ul>
                 
                 <div class = "navbar-header" id = "nav_header">
-                    <a href = "index.html" class = "navbar-brand">Welcome To Ace Deals</a>
+                    <a href = "index.php" class = "navbar-brand">Welcome To Ace Deals</a>
                 </div>
                 <img src = "../Logo/logo.PNG" style = "transform: translate(-230px,0px);">    
             </div>
@@ -200,13 +200,13 @@
                                     <div class = "modal-body">
                                         <h3 style = "font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shop By Departments</h3>
                                         <ul style = "list-style-type: none;">
-                                            <li><a href = "electronics.html" class = "modal_a-grp_0">Electronics&nbsp;&nbsp;&nbsp;<span class="fa fa-microchip"></span></a></li>
+                                            <li><a href = "electronics.php" class = "modal_a-grp_0">Electronics&nbsp;&nbsp;&nbsp;<span class="fa fa-microchip"></span></a></li>
                                             <br>
-                                            <li><a href = "computer and accessories.html" class = "modal_a-grp_0">Computers&nbsp;&nbsp;&nbsp;<span class="fa fa-desktop"></span></a></li>
+                                            <li><a href = "computer and accessories.php" class = "modal_a-grp_0">Computers&nbsp;&nbsp;&nbsp;<span class="fa fa-desktop"></span></a></li>
                                             <br>
-                                            <li><a href = "clothes.html" class = "modal_a-grp_0">Clothing&nbsp;&nbsp;&nbsp;<span class="fa fa-female"></span></a></li>
+                                            <li><a href = "clothes.php" class = "modal_a-grp_0">Clothing&nbsp;&nbsp;&nbsp;<span class="fa fa-female"></span></a></li>
                                             <br>
-                                            <li><a href = "toys.html" class = "modal_a-grp_0">Toys&nbsp;&nbsp;&nbsp;<span class="fa fa-superpowers"></span></a></li>
+                                            <li><a href = "toys.php" class = "modal_a-grp_0">Toys&nbsp;&nbsp;&nbsp;<span class="fa fa-superpowers"></span></a></li>
                                         </ul>
 
                                         <h3 style = "font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programs and Features</h3>
@@ -253,12 +253,12 @@
             <ul class = "nav nav-pills nav-stacked">
                 <br>
                 <li><span class = "nav-pills-heading">&nbsp;&nbsp;Categories</span></li>
-                <li><a href = "electronics.html" class = "modal_a-grp_0">&nbsp;&nbsp;Electronics&nbsp;&nbsp;&nbsp;<span class="fa fa-microchip"></span></a></li>
-                <li><a href = "computer and accessories.html" class = "modal_a-grp_0">&nbsp;&nbsp;Computers&nbsp;&nbsp;&nbsp;<span class="fa fa-desktop"></span></a></li>
-                <li><a href = "clothes.html" class = "modal_a-grp_0">&nbsp;&nbsp;Clothing&nbsp;&nbsp;&nbsp;<span class="fa fa-female"></span></a></li>
-                <li><a href = "toys.html" class = "modal_a-grp_0">&nbsp;&nbsp;Toys&nbsp;&nbsp;&nbsp;<span class="fa fa-superpowers"></span></a></li>
-                <li><a href = "furniture.html" class = "modal_a-grp_0">&nbsp;&nbsp;Furniture&nbsp;&nbsp;&nbsp;<span class="fa fa-bed"></span></a></li>
-                <li><a href = "beauty picks.html" class = "modal_a-grp_0">&nbsp;&nbsp;Beauty Picks&nbsp;&nbsp;&nbsp;<span class="fa fa-heart"></span></a></li>
+                <li><a href = "electronics.php" class = "modal_a-grp_0">&nbsp;&nbsp;Electronics&nbsp;&nbsp;&nbsp;<span class="fa fa-microchip"></span></a></li>
+                <li><a href = "computer and accessories.php" class = "modal_a-grp_0">&nbsp;&nbsp;Computers&nbsp;&nbsp;&nbsp;<span class="fa fa-desktop"></span></a></li>
+                <li><a href = "clothes.php" class = "modal_a-grp_0">&nbsp;&nbsp;Clothing&nbsp;&nbsp;&nbsp;<span class="fa fa-female"></span></a></li>
+                <li><a href = "toys.php" class = "modal_a-grp_0">&nbsp;&nbsp;Toys&nbsp;&nbsp;&nbsp;<span class="fa fa-superpowers"></span></a></li>
+                <li><a href = "furniture.php" class = "modal_a-grp_0">&nbsp;&nbsp;Furniture&nbsp;&nbsp;&nbsp;<span class="fa fa-bed"></span></a></li>
+                <li><a href = "beauty picks.php" class = "modal_a-grp_0">&nbsp;&nbsp;Beauty Picks&nbsp;&nbsp;&nbsp;<span class="fa fa-heart"></span></a></li>
                 <li><span class = "nav-pills-heading">&nbsp;&nbsp;Digital Content and Devices</span></li>
                 <li><a href = "#" class = "modal_a-grp_0">Ace Deals Music&nbsp;&nbsp;&nbsp;<span class="fa fa-volume-up"></span></a></li>
                 <li><a href = "#" class = "modal_a-grp_0">Ace Deals Promotion Video&nbsp;&nbsp;&nbsp;<span class="fa fa-play-circle"></span></a></li>
@@ -455,4 +455,4 @@
             <h4 class = "text-center" style = "color:white;">Copyrighted By &copy; Ace Deals</h4>
         </div>
     </body>
-</html>
+</php>
