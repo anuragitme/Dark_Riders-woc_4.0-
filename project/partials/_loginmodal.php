@@ -6,18 +6,18 @@
                 <h5 style="color:black; font-weight:bold; font-size:1.5em;" id="loginmodalLabel">Login to MyForum</h5>
                
             </div>
-            <form>
+            <form action="partials/_handle_Login.php" method="post">
             <div class="modal-body">
                 
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="loginEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="loginEmail"  name="loginEmail" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div><br>
                     
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <label for="loginPass" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="loginPass" name="loginPass">
                     </div><br>
                     
                     <button type="submit" class="btn btn-primary">Submit</button>

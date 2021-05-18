@@ -1,5 +1,6 @@
 <?php
 
+
 echo'<div class = "nav navbar-inverse">
             <div class = "container-fluid">
                 <ul class = "nav navbar-nav navbar-right">
@@ -29,5 +30,7 @@ echo'<div class = "nav navbar-inverse">
 
         include'partials/_loginmodal.php';
         include'partials/_signupmodal.php';
+        
+        
 
 ?>
