@@ -1,5 +1,5 @@
-<!DOCTYPE php>
-<php>
+<!doctype html>
+<html lang="en">
     <head>
         <title>Home Page</title>
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
@@ -128,4 +128,4 @@
 
         <div class="footer_footer"><h3 class="text-center">Copyrighted By &copy; Ace Deals</h3></div>
     </body>
-</php>
+</html>
