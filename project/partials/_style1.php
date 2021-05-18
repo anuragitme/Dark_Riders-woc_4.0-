@@ -300,5 +300,10 @@ echo' <style>
                 margin-top: 0vh;
                 color: white;
             }
+
+            .custom_btn{
+                postion:relative;
+                margin-left:8vw;
+            }
         </style>';
 ?>

@@ -68,32 +68,32 @@
             <div class="flex_item" id="item1">
                 <h3 class = "text-center">Computer and Accessories</h3>
                 <img src = "../Images/i1.PNG" alt = "" class = "img-responsive img_flex">
-                <a href = "computer and accessories.php"><h5 class = " btn btn-info">See More</h5></a>
+                <button class = " btn btn-info custom_btn"><a href = "computer and accessories.php" ><h5 >See More</h5></a></button>
             </div>
             <div class="flex_item" id="item2">
                 <h3 class="text-center">Beauty Picks</h3>
                 <img src="../Images/i2.PNG" alt = "" class = "img-responsive img_flex">
-                <a href = "beauty picks.php"><h5 class = "btn btn-info">See More</h5></a>
+               <button class = " btn btn-info custom_btn"><a href = "beauty picks.php"><h5 >See More</h5></a></button> 
             </div>
             <div class="flex_item" id="item3">
                 <h3 class="text-center">Toy and Joy</h3>
                 <img src = "../Images/i3.PNG" alt = "" class = "img-responsive img_flex">
-                <a href = "toys.php"><h5 class = "btn btn-info">See More</h5></a>
-            </div>
+                <button class = " btn btn-info custom_btn"> <a href = "toys.php"><h5 >See More</h5></a>
+            </div></button>
             <div class="flex_item" id="item4">
                 <h3 class="text-center">Latest Fashion</h3>
                 <img src = "../Images/i7.jpg" alt = "" class = "img-responsive img_flex">
-                <a href = "clothes.php"><h5 class = "btn btn-info">See More</h5></a>
+                 <button class = " btn btn-info custom_btn"><a href = "clothes.php"><h5 >See More</h5></a></button>
             </div>
             <div class="flex_item" id="item5">
                 <h3 class="text-center">Electronics</h3>
                 <img src = "../Images/i4.PNG" alt = "" class = "img-responsive img_flex">
-                <a href = "electronics.php"><h5 class = "btn btn-info">See More</h5></a>
+                 <button class = " btn btn-info custom_btn"><a href = "electronics.php"><h5 >See More</h5></a></button>
             </div>
             <div class="flex_item" id="item6">
                 <h3 class="text-center">Home Furniture</h3>
                 <img src = "../Images/i8.PNG" alt =" " class = "img-responsive img_flex">
-                <a href = "furniture.php"><h5 class = "btn btn-info">See More</h5></a>
+                 <button class = " btn btn-info custom_btn"><a href = "furniture.php"><h5 >See More</h5></a></button>
             </div>   
         </div>
         <div class = "footer_header_0"><h2 class="text-center">Ace Deals</h2></div>
