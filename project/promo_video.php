@@ -114,6 +114,8 @@
     </style>
 </head>
 <body>
+         <?php include'partials/_dbconnect.php';?>
+         
     <div class="main_body">
         <nav class = "nav_0">
             <ul class = "nav_list">

@@ -115,9 +115,13 @@
     
 </head>
 <body>
+     <?php include'partials/_dbconnect.php';?>
+     
      <?php include'partials/_navbar1.php'; ?>
 
      <?php include'partials/_navbar2.php'; ?>
+
+      
 
     <div>
         <h2 class = "heading_0 text-center">Hello. What We Can Help You With?</h2>
