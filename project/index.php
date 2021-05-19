@@ -1,5 +1,7 @@
 <!doctype html>
 <html lang="en">
+<?php
+session_start(); ?>
     <head>
         <title>Home Page</title>
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
@@ -14,8 +16,6 @@
     </head>
 
     <body>
-     
-        
         
         <?php include'partials/_navbar1.php'; ?>
         <?php include'partials/_dbconnect.php';?>

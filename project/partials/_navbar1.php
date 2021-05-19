@@ -1,14 +1,17 @@
-<?php
- session_start();
 
+<?php
 echo'<div class = "nav navbar-inverse">
             <div class = "container-fluid">
                 <ul class = "nav navbar-nav navbar-right">
-                    <li><div class="mx-2">
+                    <li><div class="mx-2">';
       
-      
-                        <button class="btn btn-outline-primary navbar-btn" data-toggle="modal" data-target="#loginmodal">Login</button>
-                        <button class="btn btn-outline-primary navbar-btn" data-toggle="modal" data-target="#signupmodal">Signup</button>
+                    if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
+                      echo'<button class="btn btn-outline-primary navbar-btn" data-toggle="modal" data-target="#logoutmodal">Logout</button>';
+                    }
+                    else{
+                       echo' <button class="btn btn-outline-primary navbar-btn" data-toggle="modal" data-target="#loginmodal">Login</button>';
+                    }
+                     echo'<button class="btn btn-outline-primary navbar-btn" data-toggle="modal" data-target="#signupmodal">Signup</button>
                         
                         </div></li>
                     <li><a href = "#"><span class = "glyphicon glyphicon-earphone"> Contact Us</span></a></li>
@@ -31,12 +34,7 @@ echo'<div class = "nav navbar-inverse">
         include'partials/_loginmodal.php';
         include'partials/_signupmodal.php';
 
-        if(isset($_GET['signupsuccess']) && $_GET['signupsuccess']=="true" ){
-  echo'<div class="alert alert-success alert-dismissible fade show my-0" role="alert">
-  <strong>Success!</strong> Your account is created.
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>';
-}
+        
         
         
 

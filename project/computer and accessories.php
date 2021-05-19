@@ -1,5 +1,7 @@
-<!DOCTYPE php>
-<php>
+<!DOCTYPE html>
+<html lang="en">
+<?php
+session_start(); ?>
     <head>
         <title>Ace Deals</title>
         <meta charset="UTF-8">
@@ -210,4 +212,4 @@
 
         <?php include'partials/_footer.php'; ?>
     </body>
-</php>
+</html>

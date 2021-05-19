@@ -62,4 +62,11 @@ echo'<div class = "nav navbar-inverse custom">
             </div>
         </div>';
 
+        if(isset($_GET['signupsuccess']) && $_GET['signupsuccess']=="true" ){
+  echo'<div class="alert alert-success alert-dismissible fade show my-0" role="alert">
+  <strong>Success!</strong> Your account is created.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>';
+}
+
 ?>
