@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+ <?php session_start(); ?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -110,19 +111,25 @@
 
         h4{
             margin: 0;
+
         }
+        
     </style>
+    
 </head>
 <body>
-         <?php include'partials/_dbconnect.php';?>
+
+        
+        <?php include'partials/_dbconnect.php';?>
+        
          
     <div class="main_body">
         <nav class = "nav_0">
             <ul class = "nav_list">
-                <li><a href = "index.php">Home</a></li>
+                <li><a href = "index.php">  Home  </a></li>
                 <li><a href = "#">Music</a></li>
                 <li><a href = "#">Conatct Us</a></li>
-                <li><a href = "#">Logout</a></li>
+                <!-- <li><a href = "#">Logout</a></li> -->
             </ul>
         </nav>
         <br><br>
@@ -137,6 +144,6 @@
         </div>
     </div>
 
-    <?php include'partials/_footer.php'; ?>
+    
 </body>
 </html>
