@@ -15,7 +15,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
                 $_SESSION['loggedin']=true;
                 $_SESSION['useremail']=$email;
                 echo"logged in".$email;
-                 header("Location:/darkriders/project/index.php");
+                 header("Location:/darkriders/project");
                  exit();
              }
              else{

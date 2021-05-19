@@ -6,7 +6,7 @@ echo'<div class = "nav navbar-inverse">
                     <li><div class="mx-2">';
       
                     if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
-                      echo'<button class="btn btn-outline-primary navbar-btn" data-toggle="modal" data-target="#logoutmodal">Logout</button>';
+                      echo'<a href="partials/_logout.php" class="btn btn-outline-success ml-2">Logout</a>';
                     }
                     else{
                        echo' <button class="btn btn-outline-primary navbar-btn" data-toggle="modal" data-target="#loginmodal">Login</button>';
