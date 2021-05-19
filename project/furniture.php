@@ -11,6 +11,7 @@ session_start(); ?>
         <link rel = "stylesheet" href = "../css/font-awesome.css">
         <script src = "../js/jquery.js"></script>
         <script src = "../js/bootstrap.js"></script>
+        <script src = "../JQuery/jquery.js"></script>
 
         <?php include'partials/_style2.php'; ?>
     </head>
@@ -42,7 +43,7 @@ session_start(); ?>
                     <div class="flex_box_0">
                         <div class = "custom_box0">
                             <h3 class = "text-center">3 Seater Sofa</h3>
-                            <img src = "../Images/i48.PNG" class = "img-responsive tab_img">
+                            <img src = "../Images/i48.PNG" class = "img-responsive tab_img" id = "1" onmouseover = "reply_id(this.id)">
                             <br>
                             <div class = "rating_box_0">
                                 <div><h7 class = "text-center rating_heading_0">User Rating</h7></div>
@@ -53,14 +54,14 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "#" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>        
+                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>        
                             </div>
                             
                             <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center custom_box0_h">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Motion Chair</h3>
-                            <img src = "../Images/i49.png" class = "img-responsive tab_img">
+                            <img src = "../Images/i49.png" class = "img-responsive tab_img" id = "2" onmouseover = "reply_id(this.id)">
                             <br>
                             <div class = "rating_box_0">
                                 <div><h7 class = "text-center">User Rating</h7></div>
@@ -71,13 +72,13 @@ session_start(); ?>
                                     <span class = "fa fa-star"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "#" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
                             <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center custom_box0_h">Buy Now</h4></a>     -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Godrej Cupboard</h3>
-                            <img src = "../Images/i50.PNG" class = "img-responsive tab_img">
+                            <img src = "../Images/i50.PNG" class = "img-responsive tab_img" id = "3" onmouseover = "reply_id(this.id)">
                             <br>
                             <div class = "rating_box_0">
                                 <div><h7 class = "text-center">User Rating</h7></div>
@@ -88,7 +89,7 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "#" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
                             <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center custom_box0_h">Buy Now</h4></a>     -->
                         </div>
@@ -99,7 +100,7 @@ session_start(); ?>
                     <div class="flex_box_0">
                         <div class = "custom_box0">
                             <h3 class = "text-center">Sheesham Table</h3>
-                            <img src = "../Images/i51.jpg" class = "img-responsive tab_img">
+                            <img src = "../Images/i51.jpg" class = "img-responsive tab_img" id = "4" onmouseover = "reply_id(this.id)">
                             <br>
                             <div class = "rating_box_0">
                                 <div><h7 class = "text-center">User Rating</h7></div>
@@ -110,13 +111,13 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "#" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
                             <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Double Bed</h3>
-                            <img src = "../Images/i52.jpg" class = "img-responsive tab_img">
+                            <img src = "../Images/i52.jpg" class = "img-responsive tab_img" id = "5" onmouseover = "reply_id(this.id)">
                             <br>
                             <div class = "rating_box_0">
                                 <div><h7 class = "text-center">User Rating</h7></div>
@@ -127,13 +128,13 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star checked"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "#" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
                             <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Bookcase</h3>
-                            <img src = "../Images/i53.jpg" class = "img-responsive tab_img">
+                            <img src = "../Images/i53.jpg" class = "img-responsive tab_img" id = "6" onmouseover = "reply_id(this.id)">
                             <br>
                             <div class = "rating_box_0">
                                 <div><h7 class = "text-center">User Rating</h7></div>
@@ -144,7 +145,7 @@ session_start(); ?>
                                     <span class = "fa fa-star"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "#" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
                             <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
@@ -155,7 +156,7 @@ session_start(); ?>
                     <div class="flex_box_0">
                         <div class = "custom_box0">
                             <h3 class = "text-center">Recline Chair</h3>
-                            <img src = "../Images/i54.jpg" class = "img-responsive tab_img">
+                            <img src = "../Images/i54.jpg" class = "img-responsive tab_img" id = "7" onmouseover = "reply_id(this.id)">
                             <br>
                             <div class = "rating_box_0">
                                 <div><h7 class = "text-center">User Rating</h7></div>
@@ -166,13 +167,13 @@ session_start(); ?>
                                     <span class = "fa fa-star"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "#" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
                             <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Mattress</h3>
-                            <img src = "../Images/i55.jpg" class = "img-responsive tab_img">
+                            <img src = "../Images/i55.jpg" class = "img-responsive tab_img" id = "8" onmouseover = "reply_id(this.id)">
                             <br>
                             <div class = "rating_box_0">
                                 <div><h7 class = "text-center">User Rating</h7></div>
@@ -183,13 +184,13 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star checked"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "#" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
                             <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Cutlery Stand</h3>
-                            <img src = "../Images/i56.jpg" class = "img-responsive tab_img"> 
+                            <img src = "../Images/i56.jpg" class = "img-responsive tab_img" id = "9" onmouseover = "reply_id(this.id)"> 
                             <br>
                             <div class = "rating_box_0">
                                 <div><h7 class = "text-center">User Rating</h7></div>
@@ -200,7 +201,7 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star checked"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "#" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
                             <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
@@ -210,6 +211,18 @@ session_start(); ?>
         </div>
        
         <div class = "clearfix"></div>
+        <script>
+            function reply_id(num){
+                var img_id = num;
+                // alert(img_id);
+                var src = $('#' + num).attr('src');
+                // alert(src);
+                localStorage.setItem('newSource', src);
+                var x = localStorage.getItem('newSource');
+                // alert('Source Stored in Local Storage is ' + x);
+                // alert(x + 'Happy End');
+            } 
+        </script>
 
         <?php include'partials/_footer.php'; ?>
     </body>
