@@ -152,6 +152,65 @@ echo'<style>
                 top: 2vh;
                 right: 6vw;
             }
+            .btn-outline-primary {
+                    color: #C0C0C0;                    
+                    border-color: #C0C0C0;
+                    background-color: #000000;
+                    }
+ 
+ 
+ 
+.btn-outline-primary:hover {
+ 
+  color: #fff;
+ 
+  background-color: #007bff;
+ 
+  border-color: #007bff;
+ 
+}
+ 
+ 
+ 
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+ 
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+ 
+}
+ 
+ 
+ 
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+ 
+  color: #007bff;
+ 
+  background-color: transparent;
+ 
+}
+ 
+ 
+ 
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+ 
+.show > .btn-outline-primary.dropdown-toggle {
+ 
+  color: #fff;
+ 
+  background-color: #007bff;
+ 
+  border-color: #007bff;
+ 
+}
+ 
+ 
+ 
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+ 
+.show > .btn-outline-primary.dropdown-toggle:focus {
+ 
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+ 
+}
         </style>';
 
 ?>

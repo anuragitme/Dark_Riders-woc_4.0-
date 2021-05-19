@@ -108,7 +108,7 @@ session_start(); ?>
                 <h2 class="text-center" style = "font-weight: bold; color:white">Get To Know Us</h2>
                 <ul class = "flex_list_0 flex_a">
                     <li><a href = "#">Ace Deals Music</a></li>
-                    <li><a href = "#">Ace Deals Promotion Video</a></li>
+                    <li><a href = "promo_video.php">Ace Deals Promotion Video</a></li>
                     <li><a href = "#">Ace Deals Server</a></li>
                 </ul>
             </div>
