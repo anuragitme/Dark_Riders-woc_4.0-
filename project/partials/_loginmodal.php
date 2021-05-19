@@ -3,7 +3,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 style="color:black; font-weight:bold; font-size:1.5em;" id="loginmodalLabel">Login to MyForum</h5>
+                <h5 style="color:black; font-weight:bold; font-size:1.5em;" id="loginmodalLabel">Login to Ace Deals</h5>
                
             </div>
             <form action="partials/_handle_Login.php" method="post">

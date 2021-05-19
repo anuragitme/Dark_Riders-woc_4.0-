@@ -14,10 +14,11 @@
     </head>
 
     <body>
-        <?php include'partials/_dbconnect.php';?>
+     
+        
         
         <?php include'partials/_navbar1.php'; ?>
-
+        <?php include'partials/_dbconnect.php';?>
         <?php include'partials/_navbar2.php'; ?>
 
         
