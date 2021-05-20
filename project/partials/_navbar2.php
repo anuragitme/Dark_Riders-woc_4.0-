@@ -37,7 +37,7 @@ echo'<div class = "nav navbar-inverse custom">
                                             <br>
                                             <li><a href = "promo_video.php" class = "modal_a-grp_0">Ace Deals Promotion Video&nbsp;&nbsp;&nbsp;<span class="fa fa-play-circle"></span></a></li>
                                             <br>
-                                            <li><a href = "#" class = "modal_a-grp_0">Ace Deals Servers&nbsp;&nbsp;&nbsp;<span class="fa fa-database"></span></a></li>
+                                            <li><a href = "ace_deals_centers.php" class = "modal_a-grp_0">Ace Deals Centers&nbsp;&nbsp;&nbsp;<span class="fa fa-database"></span></a></li>
                                             
                                         </ul>
 

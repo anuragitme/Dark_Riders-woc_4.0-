@@ -14,7 +14,7 @@ echo'<div class = "nav navbar-inverse">
                      echo'<button class="btn btn-outline-primary navbar-btn" data-toggle="modal" data-target="#signupmodal">Signup</button>
                         
                         </div></li>
-                    <li><a href = "#"><span class = "glyphicon glyphicon-earphone"> Contact Us</span></a></li>
+                    <li><a href = "contact us.php"><span class = "glyphicon glyphicon-earphone"> Contact Us</span></a></li>
                     <li class = "dropdown"><a href = "#" data-toggle = "dropdown"><span class="glyphicon glyphicon-user"> User</span> <span class = "caret"></span></a>
                         <ul class = "dropdown-menu">
                             <li><a href = "#">Profile</a></li>

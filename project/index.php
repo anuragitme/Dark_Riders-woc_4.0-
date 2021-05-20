@@ -109,7 +109,7 @@ session_start(); ?>
                 <ul class = "flex_list_0 flex_a">
                     <li><a href = "#">Ace Deals Music</a></li>
                     <li><a href = "promo_video.php">Ace Deals Promotion Video</a></li>
-                    <li><a href = "#">Ace Deals Server</a></li>
+                    <li><a href = "ace_deals_centers.php">Ace Deals Centers</a></li>
                 </ul>
             </div>
             <div class="footer_body_flex">
