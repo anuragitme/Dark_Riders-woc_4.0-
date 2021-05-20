@@ -84,7 +84,7 @@ session_start(); ?>
         .names li{
             list-style-type: none;
             line-height: 4vh;
-            margin-left: 0.98vw;
+            margin-left: 1.3vw;
             font-size: 1.18vw;
         }
 
