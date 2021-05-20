@@ -111,7 +111,10 @@ session_start(); ?>
     <br>
     <h1 class = "text-center" style = "font-weight: bold;">Hi!! Contact Us and Let Us Solve Your Queries??</h1>
     <br>
-    <div class = "queries">
+    
+    <div class="container my-4">
+        <div class="jumbotron" style="background-color:#f553dc">
+            <div class = "queries">
         <div class="contacts">
             <h4 class = "text-center" style = "font-weight: bold;">For Online Payment Related Queries</h4>
             <ul class = "names">
@@ -121,15 +124,26 @@ session_start(); ?>
                 <li>Mr. Abhimanyu: 8684xxx721</li>
             </ul>
         </div>
-        
+    </div><br>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="jumbotron" style="background-color:#eff542">
+                <div class = "queries">
         <div class="contacts">
             <h4 class = "text-center" style = "font-weight: bold;">Queries Related to Product Delivery</h4>
             <ul class = "names">
-                <li>Mrs. Khushi Jain: 9956xxx438</li>
+                <li >Mrs. Khushi Jain: 9956xxx438</li>
                 <li>Ms. Tanushree Pandey: 7864xxx709</li>
                 <li>Mr. Vansh Pandey: 8973xxx108</li>
             </ul>
         </div>
+    </div><br>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="jumbotron" style="background-color:#a1f542">
+            <div class = "queries"> 
         <div class="contacts">
             <h4 class = "text-center" style = "font-weight: bold;">For Tracking Your Package Loaction</h4>
             <ul class = "names">
@@ -138,6 +152,12 @@ session_start(); ?>
                 <li>Mr. Archit Sharma: 9948xxx357</li>
             </ul>
         </div>
+    </div><br>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="jumbotron" style="background-color:#42eff5">
+                <div class = "queries">
         <div class="contacts">
             <h4 class = "text-center" style = "font-weight: bold;">For Product Quality Related Queries</h4>
             <ul class = "names">
@@ -147,22 +167,24 @@ session_start(); ?>
                 <li>Mr. Akash Gupta: 9124xxxx567</li>
             </ul>
         </div>
+    </div><br>
+        </div>
     </div>
     
     <h2 style = "text-align: center; font-weight: bold;">Need More Help From Us?? Contact Us On Social Media</h2>
     <div class = "more_help">
         <div id  = "box1">
-            <h3 class = "text-center">Our facebook id <span class = "fa fa-facebook-official"></span></h3>
+            <h3 class = "text-center"><a href="https://www.facebook.com/ace.deals.50"> Our facebook id </a><span class = "fa fa-facebook-official"></span></h3>
             <h4 class="text-center"></h4>
         </div>
 
         <div id  = "box2">
-            <h3 class = "text-center">Our Twitter id <span class = "fa fa-twitter-square"></span></h3>
+            <h3 class = "text-center"><a href="https://twitter.com/AceDeals4">Our Twitter id </a><span class = "fa fa-twitter-square"></span></h3>
             <h4 class="text-center"></h4>
         </div>
 
         <div id  = "box3">
-            <h3 class = "text-center">Our Instagram id <span class = "fa fa-instagram"></span></h3>
+            <h3 class = "text-center"><a href="http://www.instagram.com/ace_deals_woc4">Our Instagram id </a><span class = "fa fa-instagram"></span></h3>
             <h4 class="text-center"></h4>
         </div>
     </div>
