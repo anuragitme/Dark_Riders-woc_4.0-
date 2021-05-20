@@ -63,15 +63,34 @@ echo'<div class = "nav navbar-inverse custom">
         </div>';
 
         if(isset($_GET['signupsuccess']) && $_GET['signupsuccess']=="true" ){
-        ?>
+
+        echo'<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Your account is created.</p>
+  <hr>
+  <p class="mb-0">Whenever you need to login you can login using your credentials.</p>
+</div>';
         
-<script>
-
-  alert("Your account has been created successfully!");
-
-</script>
-
-
-<?php 
 }
+if(isset($_GET['signupunsuccess1']) && $_GET['signupunsuccess1']=="true" ){
+
+        echo'<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Sorry!</h4>
+  <p>Your account is not created.</p>
+  <hr>
+  <p class="mb-0">The email you have entered already exists.Please try with another email</p>
+</div>';
+        
+}
+if(isset($_GET['signupunsuccess2']) && $_GET['signupunsuccess2']=="true" ){
+
+        echo'<div class="alert alert-warning" role="alert">
+  <h4 class="alert-heading">Sorry!</h4>
+  <p>Your account is not created.</p>
+  <hr>
+  <p class="mb-0">The passwords you have entered in both fields does not match.Please enter same passwords</p>
+</div>';
+        
+}
+
 ?>

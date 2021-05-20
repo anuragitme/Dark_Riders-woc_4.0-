@@ -12,6 +12,8 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $numRows=mysqli_num_rows($result);
     if($numRows>0){
         $showError ="Email already in use";
+        header("location:/darkriders/project/index.php?signupunsuccess1=true");
+        
     }
     else{
         if($pass==$cpass){
@@ -25,7 +27,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         }
         else{
             $showError="Passwords do not match";
-            header("location:/darkriders/project/index.php?signupsuccess=false&error=$showError");
+            header("location:/darkriders/project/index.php?signupunsuccess2=true");
         }
 
     }
