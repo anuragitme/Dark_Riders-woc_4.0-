@@ -97,7 +97,7 @@ session_start(); ?>
         }
         .confirmation{
             width:60vw;
-            height:70vh;
+            height:75vh;
             margin: 3vh auto;
             border: 1px solid black;
             box-sizing: border-box;
@@ -111,10 +111,10 @@ session_start(); ?>
         }
 
         .btn-outline-primary {
-                    color: #C0C0C0;                    
-                    border-color: #C0C0C0;
-                    background-color: #000000;
-                    }
+        color: #C0C0C0;                    
+        border-color: #C0C0C0;
+        background-color: #000000;
+        }
  
  
  
@@ -208,7 +208,11 @@ session_start(); ?>
                 <input type = "text" class = "form-control" name = "card_number" id = "card_number" placeholder = "Enter your Credit Card Number" required>
             </div>
 
-            
+            <div class = "form-group">
+                <label for = "number">Product Name</label>
+                <input type = "text" class = "form-control" name = "product_name" id = "card_number" placeholder = "Enter your Product Name" required>
+            </div>
+
             <div class = "form-group">
                 <input type = "submit" class = "form-control btn0">
             </div>
