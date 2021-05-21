@@ -22,7 +22,8 @@ To run this website on your system,there are few things that you have to do
       <li>Now open your browser and type "localhost" in the URL Address bar.</li>
       <li>Click on phpMyAdmin.</li>
       <li>Create a database named darkriders and in it create a table named users.</li>
-      <li>In users create the following columns: sno, user_email, user_pass, user_name, timestamp</li>
+      <li>In users create the following columns: sno, user_email, user_pass, user_name, timestamp.</li>
+      <li>That's All!!! Start browsing our website!!!</li>
     </ul>
     
   </body>
