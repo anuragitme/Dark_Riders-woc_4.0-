@@ -15,7 +15,7 @@ session_start(); ?>
     <script> 
          window.onload = function(){
             var src = localStorage.getItem('newSource');
-            alert('Opening image in Path ' + src );
+            // alert('Opening image in Path ' + src );
             $('#user_product').attr('src', src);
         }
 

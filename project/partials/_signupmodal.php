@@ -11,6 +11,11 @@
       <form action="partials/_handle_Signup.php" method="post">
             <div class="modal-body">
                 
+                 <div class="mb-3">
+                        <label for="username" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="username" name="username">
+                    </div><br> 
+                    
                     <div class="mb-3">
                         <label for="signupEmail" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="signupEmail" name="signupEmail"aria-describedby="emailHelp">

@@ -20,10 +20,15 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
              }
              else{
                  echo'unable to login';
+                 header("Location:/darkriders/project/index.php?loginfailure=true");
+                 exit();
+                 
              }
         
 
     }
+    else{header("location:/darkriders/project/index.php?loginfailure2=true");}
 
 }
+
 ?>

@@ -127,8 +127,8 @@
         <nav class = "nav_0">
             <ul class = "nav_list">
                 <li><a href = "index.php">  Home  </a></li>
-                <li><a href = "#">Music</a></li>
-                <li><a href = "#">Conatct Us</a></li>
+                <li><a href = "music.php">Music</a></li>
+                <li><a href = "contact us.php">Conatct Us</a></li>
                 <!-- <li><a href = "#">Logout</a></li> -->
             </ul>
         </nav>
