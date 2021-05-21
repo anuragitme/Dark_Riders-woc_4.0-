@@ -8,7 +8,7 @@ To run this website on your system,there are few things that you have to do
 <!DOCTYPE html>
 <html>
   <head>
-    <style></style>
+    
   </head>
   <body>
     <h1 style = "text-align:center;font-size:1.5vw;font-weight:bold;font-family:arail;">Dark_Riders-WOC_4.0_</h1>
