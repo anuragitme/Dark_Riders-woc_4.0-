@@ -10,7 +10,7 @@ To run this website on your system,there are few things that you have to do
   <head>
     <style>
       img{
-        width:300;
+        width:100;
         height:300;
       }
     </style>
