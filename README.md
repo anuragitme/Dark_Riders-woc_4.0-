@@ -25,6 +25,10 @@ To run this website on your system,there are few things that you have to do
       <li>In users create the following columns: sno, user_email, user_pass, user_name, timestamp.</li>
       <li>That's All!!! Start browsing our website!!!</li>
     </ul>
-    
+    <h3>As people say a picture speaks a thousand words so here are some screenshots of our website. Hope You Like it: D</h3>
+    <img src = "screenshot/r2.png">
+    <img src = "screenshot/r4.png">
+    <img src = "screenshot/r5.png">
+    <img src = "screenshot/r3.png"> 
   </body>
 
