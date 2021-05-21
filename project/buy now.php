@@ -218,5 +218,6 @@ session_start(); ?>
             </div>
         </form>
     </div>
+    <?php include'partials/_footer.php'; ?>
 </body>
 </html>

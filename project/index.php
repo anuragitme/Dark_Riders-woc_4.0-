@@ -115,7 +115,7 @@ session_start(); ?>
             <div class="footer_body_flex">
                 <h2 class="text-center" style = "font-weight: bold; color:white">Covid Help And Care</h2>
                 <ul class = "flex_list_1 flex_a">
-                    <li><a href = "#">Ace Deals's Covid Center</a></li>
+                    <li><a href = "covid_center.php">Ace Deals's Covid Center</a></li>
                     <li><a href = "#">Charity</a></li>
                 </ul>
             </div>
