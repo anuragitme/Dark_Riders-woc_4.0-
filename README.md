@@ -8,17 +8,17 @@ To run this website on your system,there are few things that you have to do
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      img{
-        width:100;
-        height:300;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <h1 style = "text-align:center;font-size:1.5vw;font-weight:bold;font-family:arail;">Dark_Riders-WOC_4.0_</h1>
     <h2 style = "text-align:center;font-size:1.5vw;font-weight:bold;font-family:arail;">Welcome To Our Project</h2>
-    <img src = "screenshot/r2.png">
-    <img src = "screenshot/r4.png">
+    <h3>Pre-Requisites For Opening Our Website on Your Laptop</h3>
+    <ul>
+      <li>Donwload and Install XAAMP Server on Your Computer.</li>
+      <a href = "https://www.apachefriends.org/download.html">Link For Download XAAMP</a>
+      <li>Now start the XAAMP Server.</li>
+      <li>Note the port number of MySQL service running on XAAMP and go to _dbconnect.php file and type the port number there like this:"$servername = 'localhost:port number'"
+    </ul>
   </body>
 
