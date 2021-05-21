@@ -212,12 +212,13 @@ session_start(); ?>
                 <label for = "number">Product Name</label>
                 <input type = "text" class = "form-control" name = "product_name" id = "card_number" placeholder = "Enter your Product Name" required>
             </div>
-
+<br>
             <div class = "form-group">
                 <input type = "submit" class = "form-control btn0">
             </div>
         </form>
     </div>
+    <br><br>
     <?php include'partials/_footer.php'; ?>
 </body>
 </html>
