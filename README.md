@@ -17,8 +17,13 @@ To run this website on your system,there are few things that you have to do
     <ul>
       <li>Donwload and Install XAAMP Server on Your Computer.</li>
       <a href = "https://www.apachefriends.org/download.html">Link For Download XAAMP</a>
-      <li>Now start the XAAMP Server.</li>
-      <li>Note the port number of MySQL service running on XAAMP and go to _dbconnect.php file and type the port number there like this:"$servername = 'localhost:port number'"
+      <li>Start the XAAMP Server.</li>
+     <li>Note the port number of MySQL service running on XAAMP and go to _dbconnect.php file and type the port number there like this:"$servername = 'localhost:port number'"</li>
+      <li>Now open your browser and type "localhost" in the URL Address bar.</li>
+      <li>Click on phpMyAdmin.</li>
+      <li>Create a database named darkriders and in it create a table named users.</li>
+      <li>In users create the following columns: sno, user_email, user_pass, user_name, timestamp</li>
     </ul>
+    
   </body>
 
