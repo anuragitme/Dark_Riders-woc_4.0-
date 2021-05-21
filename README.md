@@ -10,8 +10,8 @@ To run this website on your system,there are few things that you have to do
   <head>
     <style>
       img{
-        width:20vw;
-        height:30vw;
+        width:300;
+        height:300;
       }
     </style>
   </head>
