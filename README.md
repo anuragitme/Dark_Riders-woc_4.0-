@@ -29,6 +29,7 @@ To run this website on your system,there are few things that you have to do
     <img src = "screenshot/r2.png">
     <img src = "screenshot/r4.png">
     <img src = "screenshot/r5.png">
-    <img src = "screenshot/r3.png"> 
+    <img src = "screenshot/r3.png">
+    <h3>Stay Safe and Healthy.Goodbye</h3>
   </body>
 
