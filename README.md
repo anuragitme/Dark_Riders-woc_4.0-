@@ -16,9 +16,9 @@ To run this website on your system,there are few things that you have to do
     <h3>Name of Mentor: Saraswati Kumari</h3>
     <h3>Name of Team Members</h3>
     <ul>
+      <li>Aditya Vikram Singh(Team Leader)</li>
       <li>Anurag Sharma</li>
       <li>Akash Kumar Gupta</li>
-      <li>Aditya Vikram Singh</li>
       <li>Abhimanyu Prajapati</li>
     </ul>
     <h3>Pre-Requisites For Opening Our Website on Your Laptop</h3>
