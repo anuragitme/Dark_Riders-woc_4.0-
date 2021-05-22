@@ -13,6 +13,7 @@ To run this website on your system,there are few things that you have to do
   <body>
     <h1 style = "text-align:center;font-size:1.5vw;font-weight:bold;font-family:arail;">Dark_Riders-WOC_4.0_</h1>
     <h2 style = "text-align:center;font-size:1.5vw;font-weight:bold;font-family:arail;">Welcome To Our Project</h2>
+    <p>(The main project file is  '/project/index.php')</p>
     <h3>Name of Mentor: Saraswati Kumari</h3>
     <h3>Members of Dark Riders team</h3>
     <ul>
