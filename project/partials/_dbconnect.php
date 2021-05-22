@@ -1,7 +1,8 @@
 <?php
 
 //connecting to data base
-$servername="localhost:3030";
+$servername="localhost";
+// $servername="localhost:3030";
 $username="root";
 $password="";
 $database="darkriders";
