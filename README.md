@@ -21,8 +21,11 @@ To run this website on your system,there are few things that you have to do
      <li>Note the port number of MySQL service running on XAAMP and go to _dbconnect.php file and type the port number there like this:"$servername = 'localhost:port number'"</li>
       <li>Now open your browser and type "localhost" in the URL Address bar.</li>
       <li>Click on phpMyAdmin.</li>
-      <li>Create a database named darkriders and in it create a table named users.</li>
-      <li>In users create the following columns: sno, user_email, user_pass, user_name, timestamp.</li>
+      <li>Create a database named darkriders.</li>
+      <li>Click on Import button present on right side. A new screen will open up.</li>
+      <li>Now click on choose file and a browse and select darkriders.sql file</li>
+      <li>Now click on Go</li>
+      <li>The databas will be imported</li>
       <li>That's All!!! Start browsing our website!!!</li>
     </ul>
     <h3>As people say a picture speaks a thousand words so here are some screenshots of our website. Hope You Like it: D</h3>
