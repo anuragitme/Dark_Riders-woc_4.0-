@@ -23,7 +23,7 @@ To run this website on your system,there are few things that you have to do
       <li>Click on phpMyAdmin.</li>
       <li>Create a database named darkriders.</li>
       <li>Click on Import button present on right side. A new screen will open up.</li>
-      <li>Now click on choose file and a browse and select darkriders.sql file</li>
+      <li>Now click on choose file, browse and select darkriders.sql file</li>
       <li>Now click on Go</li>
       <li>The databas will be imported</li>
       <li>That's All!!! Start browsing our website!!!</li>
