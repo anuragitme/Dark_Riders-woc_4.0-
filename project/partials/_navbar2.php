@@ -108,5 +108,25 @@ if(isset($_GET['loginfailure2']) && $_GET['loginfailure2']=="true" ){
 </div>';
         
 }
+if(isset($_GET['ordered']) && $_GET['ordered']=="true" ){
+
+        echo'<div class="alert alert-info" role="alert">
+  <h4 class="alert-heading">Congratulations!</h4>
+  <p>You have ordered an item.For further details related to your order please go to profile section.</p>
+  <hr>
+  <p class="mb-0">Thanks for shoping from Ace Deals.</p>
+</div>';
+        
+}
+if(isset($_GET['deleted']) && $_GET['deleted']=="true" ){
+
+        echo'<div class="alert alert-info" role="alert">
+  <h4 class="alert-heading">Deletion Successful!</h4>
+  <p>Your account has been deleted successfully.</p>
+  <hr>
+  <p class="mb-0">To take the best benefits from Ace Deals try to create another account and login through that.</p>
+</div>';
+        
+}
 
 ?>

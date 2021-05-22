@@ -14,14 +14,17 @@ echo'<div class = "nav navbar-inverse">
                      echo'<button class="btn btn-outline-primary navbar-btn" data-toggle="modal" data-target="#signupmodal">Signup</button>
                         
                         </div></li>
-                    <li><a href = "contact us.php"><span class = "glyphicon glyphicon-earphone"> Contact Us</span></a></li>
-                    <li class = "dropdown"><a href = "#" data-toggle = "dropdown"><span class="glyphicon glyphicon-user"> User</span> <span class = "caret"></span></a>
+                    <li><a href = "contact us.php"><span class = "glyphicon glyphicon-earphone"> Contact Us</span></a></li>';
+                    if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
+                    echo'<li class = "dropdown"><a href = "#" data-toggle = "dropdown"><span class="glyphicon glyphicon-user"> User</span> <span class = "caret"></span></a>
                         <ul class = "dropdown-menu">
-                            <li><a href = "#">Profile</a></li>
-                            <li><a href = "#">Logout</a></li>
-                            <li><a href = "#">Delete Account</a></li>
+                            <li><a href = "profile.php">Profile</a></li>
+                            
+                            <li><a href = "partials/_delete.php">Delete Account</a></li>
                         </ul>
-                    </li>
+                    </li>';
+                }
+                echo'
                 </ul>
                 
                 <div class = "navbar-header" id = "nav_header">

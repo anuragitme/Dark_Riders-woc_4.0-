@@ -17,14 +17,16 @@ session_start(); ?>
             var src = localStorage.getItem('newSource');
             // alert('Opening image in Path ' + src );
             $('#user_product').attr('src', src);
+            var price = localStorage.getItem('selling_price');
+            $('#cost').text( 'PRODUCT COST:'+ price);
         }
 
-        $(document).ready(function(){
-            $('.btn0').click(function(){
-                var x = document.getElementById('user').value;
-                alert('Congratulation Mr./Mrs. ' + x + 'Your Order has been placed and will be delivered within a week');
-            });
-        });
+        // $(document).ready(function(){
+        //     $('.btn0').click(function(){
+        //         var x = document.getElementById('user').value;
+        //         alert('Congratulation Mr./Mrs. ' + x + 'Your Order has been placed and will be delivered within a week');
+        //     });
+        // });
     </script>
 
     <style>
@@ -175,32 +177,47 @@ session_start(); ?>
          <?php include'partials/_navbar1.php'; ?>
         <?php include'partials/_dbconnect.php';?>
         <?php include'partials/_navbar2.php'; ?>
-    
 
+
+     <?php   if(isset($_GET['firstlogin']) && $_GET['firstlogin']=="true" ){
+
+        echo'<div class="alert alert-warning" role="alert">
+  <h4 class="alert-heading">Sorry!</h4>
+  <p>You first need to login.</p>
+  <hr>
+  <p class="mb-0">Please login to buy this item </p>
+</div>';
+        
+}
+?>
+    
+       <!-- <?php $p_id=$_GET['product_id']; ?> -->
+       
     <h2 style = "text-align: center; font-size:4vw">Here is Your Product <span class = "glyphicon glyphicon-gift"></span></h2>
     <div class = "product">
         <img src ="" alt = "" id = "user_product" class = "img-responsive">
         <br><br>
-        <h4 style = "text-align: center;">Price -----&gt; 52,000</h4>
+        <h4 id ="cost" style = "text-align: center;">Price -----&gt; 52,000</h4>
     </div>
     <div class = "confirmation">
         <h3 style = "text-align: center;font-weight: bold;font-size:2vw">Confirm Your Purchase</h3>
         <hr style = "border: 0.1vw dashed gray;">
         
-        <form>
+        <form action="partials/_order.php" method="post">
             <div class = "form-group">
-                <label for = "user">Username</label>
-                <input type = "text" class = "form-control" name = "user" id = "user" placeholder = "Enter Your Username" required>
+                <label for = "user">Name</label>
+                <input type = "text" class = "form-control" name = "user" id = "user" placeholder = "Enter your name" required>
+            </div>
+            <div class = "form-group">
+                <label for = "address">Address</label>
+                <input type = "text" class = "form-control" name = "address" id = "address" placeholder = "Enter your complete address with pincode" required>
             </div>
 
-            <div class = "form-group">
-                <label for = "pass">Password</label>
-                <input type = "password" class = "form-control" name = "password" id = "pass" placeholder = "Enter your Password" required>
-            </div>
+            
 
             <div class = "form-group">
-                <label for = "email">Email</label>
-                <input type = "email" class = "form-control" name = "email" id = "email" placeholder = "Enter your Email" required>
+                <label for = "ph_num">Enter your Phone number</label>
+                <input type = "number" class = "form-control" name = "ph_num" id = "ph_num" placeholder = "Enter your Phone number" required>
             </div>
 
             <div class = "form-group">
@@ -210,7 +227,7 @@ session_start(); ?>
 
             <div class = "form-group">
                 <label for = "number">Product Name</label>
-                <input type = "text" class = "form-control" name = "product_name" id = "card_number" placeholder = "Enter your Product Name" required>
+                <input type = "text" class = "form-control" name = "product_name" id = "card_number" placeholder = "Enter your Product Name along proper details" required>
             </div>
 <br>
             <div class = "form-group">
@@ -218,7 +235,9 @@ session_start(); ?>
             </div>
         </form>
     </div>
+    
     <br><br>
+    
     <?php include'partials/_footer.php'; ?>
 </body>
 </html>

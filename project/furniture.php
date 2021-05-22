@@ -54,10 +54,10 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>        
+                                <div class = "buy_now"><a href = "buy now.php?product_id=furniture_id1" class = "custom_box0_a" id="25000" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>        
                             </div>
                             
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center custom_box0_h">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center custom_box0_h">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Motion Chair</h3>
@@ -72,9 +72,9 @@ session_start(); ?>
                                     <span class = "fa fa-star"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=furniture_id2" class = "custom_box0_a" id="6000" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center custom_box0_h">Buy Now</h4></a>     -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center custom_box0_h">Buy Now</h4></a>     -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Godrej Cupboard</h3>
@@ -89,9 +89,9 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=furniture_id3" class = "custom_box0_a" id="19999" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center custom_box0_h">Buy Now</h4></a>     -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center custom_box0_h">Buy Now</h4></a>     -->
                         </div>
                     </div>
                 </div>
@@ -111,9 +111,9 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=furniture_id4" class = "custom_box0_a" id="12999" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Double Bed</h3>
@@ -128,9 +128,9 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star checked"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=furniture_id5" class = "custom_box0_a" id="35000" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Bookcase</h3>
@@ -145,9 +145,9 @@ session_start(); ?>
                                     <span class = "fa fa-star"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=furniture_id6" class = "custom_box0_a" id="9999" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                     </div>
                 </div>
@@ -167,9 +167,9 @@ session_start(); ?>
                                     <span class = "fa fa-star"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=furniture_id7" class = "custom_box0_a" id="17689" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Mattress</h3>
@@ -184,9 +184,9 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star checked"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=furniture_id8" class = "custom_box0_a" id="7899" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Cutlery Stand</h3>
@@ -201,9 +201,9 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star checked"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=furniture_id9" class = "custom_box0_a" id="300" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                     </div>
                 </div>
@@ -222,6 +222,13 @@ session_start(); ?>
                 // alert('Source Stored in Local Storage is ' + x);
                 // alert(x + 'Happy End');
             } 
+            function reply_price(price){
+            var cost = price;
+            localStorage.setItem('selling_price', cost);  
+            var y = localStorage.getItem('selling_price');
+
+            }
+
         </script>
 
         <?php include'partials/_footer.php'; ?>

@@ -219,37 +219,37 @@ session_start(); ?>
         <div class = "item_summer item_top"><h3 class = "text-center" style = "font-weight: bold;">Apple Ipad</h3>
             <img src = "../Images/s1.jpg" alt = "" id = "1" onmouseover = "reply_id(this.id)">
             <h5 class = "text-center">Price: <del>1,50,000</del> 1,40,000</h5>
-            <a href = "buy now.php"><h5 class = "text-center">Buy Now</h5></a>
+            <a href = "buy now.php?product_id=ss_id1"><h5 class = "text-center">Buy Now</h5></a>
         </div>
 
         <div class = "item_summer item_top"><h3 class = "text-center" style = "font-weight: bold;">Samsung Microwave Ovens</h3>
             <img src = "../Images/s2.jpg" alt = "" id = "2"  onmouseover = "reply_id(this.id)">
             <h5 class = "text-center">Price: <del>30,000</del> 27,000</h5>
-            <a href = "buy now.php"><h5 class = "text-center">Buy Now</h5></a>
+            <a href = "buy now.php?product_id=ss_id2"><h5 class = "text-center">Buy Now</h5></a>
         </div>
 
         <div class = "item_summer item_top"><h3 class = "text-center" style = "font-weight: bold;">Wakefit Double Bed</h3>
             <img src = "../Images/s3.jpg" alt = "" id = "3"  onmouseover = "reply_id(this.id)">
             <h5 class = "text-center">Price: <del>20,000</del> 18,000</h5>
-            <a href = "buy now.php"><h5 class = "text-center">Buy Now</h5></a>
+            <a href = "buy now.php?product_id=ss_id3"><h5 class = "text-center">Buy Now</h5></a>
         </div>
 
         <div class = "item_summer"><h3 class = "text-center" style = "font-weight: bold;">Philips Hair Dryer</h3>
             <img src = "../Images/s4.jpg" alt = "" id = "4"  onmouseover = "reply_id(this.id)">
             <h5 class = "text-center">Price: <del>800</del> 790</h5>
-            <a href = "buy now.php"><h5 class = "text-center">Buy Now</h5></a>
+            <a href = "buy now.php?product_id=ss_id4"><h5 class = "text-center">Buy Now</h5></a>
         </div>
 
         <div class = "item_summer"><h3 class = "text-center" style = "font-weight: bold;">Denim Jeans</h3>
             <img src = "../Images/s5.jpg" alt = "" id = "5"  onmouseover = "reply_id(this.id)">
             <h5 class = "text-center">Price: <del>3,000</del> 2,700</h5>
-            <a href = "buy now.php"><h5 class = "text-center">Buy Now</h5></a>
+            <a href = "buy now.php?product_id=ss_id5"><h5 class = "text-center">Buy Now</h5></a>
         </div>
 
         <div class = "item_summer"><h3 class = "text-center" style = "font-weight: bold;">Sony Hometheatre</h3>
             <img src = "../Images/s6.PNG" alt = "" id = "6"  onmouseover = "reply_id(this.id)">
             <h5 class = "text-center">Price: <del>10,000</del> 9,000</h5>
-            <a href = "buy now.php"><h5 class = "text-center">Buy Now</h5></a>
+            <a href = "buy now.php?product_id=ss_id6"><h5 class = "text-center">Buy Now</h5></a>
         </div>
     </div>
 
@@ -295,6 +295,13 @@ session_start(); ?>
             // alert('Source Stored in Local Storage is ' + x);
             // alert(x + 'Happy End');
         } 
+        function reply_price(price){
+            var cost = price;
+            localStorage.setItem('selling_price', cost);  
+            var y = localStorage.getItem('selling_price');
+
+            }
+
     </script>
     <?php include'partials/_footer.php'; ?>
 </body>

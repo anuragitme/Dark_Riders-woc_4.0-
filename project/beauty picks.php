@@ -52,10 +52,10 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>        
+                                <div class = "buy_now"><a href = "buy now.php?product_id=bp_id1" class = "custom_box0_a" id="300" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>        
                             </div>
                             
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center custom_box0_h">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center custom_box0_h">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">L'Oreal Shampoo</h3>
@@ -70,9 +70,9 @@ session_start(); ?>
                                     <span class = "fa fa-star"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=bp_id2" class = "custom_box0_a" id="1200" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center custom_box0_h">Buy Now</h4></a>     -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center custom_box0_h">Buy Now</h4></a>     -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Men's Cream</h3>
@@ -87,9 +87,9 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=bp_id3" class = "custom_box0_a" id="100" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center custom_box0_h">Buy Now</h4></a>     -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center custom_box0_h">Buy Now</h4></a>     -->
                         </div>
                     </div>
                 </div>
@@ -109,9 +109,9 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=bp_id4" class = "custom_box0_a" id="480" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Ramington Hair Dryer</h3>
@@ -126,9 +126,9 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star checked"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=bp_id5" class = "custom_box0_a" id="2380" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Panasonic Trimmer</h3>
@@ -143,9 +143,9 @@ session_start(); ?>
                                     <span class = "fa fa-star"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=bp_id6" class = "custom_box0_a" id="2995" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                     </div>
                 </div>
@@ -165,9 +165,9 @@ session_start(); ?>
                                     <span class = "fa fa-star"></span>
                                     <span class = "fa fa-star"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=bp_id7" class = "custom_box0_a" id="300" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Nivea Foundation</h3>
@@ -182,9 +182,9 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star checked"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=bp_id8" class = "custom_box0_a" id="1479" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                         <div class = "custom_box0">
                             <h3 class = "text-center">Axe Signature</h3>
@@ -199,9 +199,9 @@ session_start(); ?>
                                     <span class = "fa fa-star checked"></span>
                                     <span class = "fa fa-star checked"></span>
                                 </div>
-                                <div class = "buy_now"><a href = "buy now.php" class = "custom_box0_a"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
+                                <div class = "buy_now"><a href = "buy now.php?product_id=bp_id9" class = "custom_box0_a" id="400" onclick="reply_price(this.id)"><h7 class = "text-center custom_box0_h">Buy Now</h7></a></div>
                             </div>
-                            <!-- <a href = "#" class = "custom_box0_a"><h4 class = "text-center">Buy Now</h4></a> -->
+                            <!-- <a href = "#" class = "custom_box0_a" id="" onclick="reply_price(this.id)"><h4 class = "text-center">Buy Now</h4></a> -->
                         </div>
                     </div>
                 </div>
@@ -220,7 +220,14 @@ session_start(); ?>
                 // alert('Source Stored in Local Storage is ' + x);
                 // alert(x + 'Happy End');
             } 
+            function reply_price(price){
+            var cost = price;
+            localStorage.setItem('selling_price', cost);  
+            var y = localStorage.getItem('selling_price');
+
+            }
         </script>
+        
 
         <?php include'partials/_footer.php'; ?>
     </body>
