@@ -36,7 +36,7 @@ To run this website on your system,there are few things that you have to do
       <li>The databas will be imported</li>
       <li>That's All!!! Start browsing our website!!!</li>
     </ul>
-    <a href = "https://drive.google.com/file/d/1jGXf4qWFSVQNsjcxYAur4ZdqVoJpgFy_/view"><h3>Link to Video File of Our Website</h3></a>
+    <a href = "https://drive.google.com/file/d/1jGXf4qWFSVQNsjcxYAur4ZdqVoJpgFy_/view">Link to Video File of Our Website</a>
     <h3>As people say a picture speaks a thousand words so here are some screenshots of our website. Hope You Like it: D</h3>
     <img src = "screenshot/r2.png">
     <img src = "screenshot/r4.png">
